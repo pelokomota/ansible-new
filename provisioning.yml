@@ -1,0 +1,9 @@
+---
+- hosts: blogvm
+  roles:
+    - blogvm
+- hosts: databasevm
+  roles:
+    - databasevm
+  
+
